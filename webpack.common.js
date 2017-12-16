@@ -1,6 +1,6 @@
 /* global require module __dirname */
 
-const fileName = 'template-library';
+const libraryFileName = 'template-library';
 const libraryName = 'templateLibrary';
 
 const sourceDir = 'src';
@@ -14,11 +14,11 @@ const UglifyJSWebpackPlugin = require('uglifyjs-webpack-plugin');
 
 const clean = new CleanWebpackPlugin([outputDir]);
 
-const extractCSS = new ExtractTextPlugin('styles/styles.css');
+const extractCSS = new ExtractTextPlugin('styles/' + libraryFileName + '.css');
 
 module.exports = {
     entry: {
-        app: './' + sourceDir + '/scripts/' + fileName + '.js'
+        app: './' + sourceDir + '/scripts/' + libraryFileName + '.js'
     },
     module: {
         rules: [
@@ -91,7 +91,7 @@ module.exports = {
         extractCSS
     ],
     output: {
-        filename: 'scripts/' + fileName + '.js',
+        filename: 'scripts/' + libraryFileName + '.js',
         path: path.resolve(__dirname, outputDir),
         library: libraryName,
         libraryTarget: 'umd',

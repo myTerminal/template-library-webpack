@@ -9,7 +9,7 @@
 [![License](https://img.shields.io/badge/LICENSE-GPL%20v3.0-blue.svg)](https://www.gnu.org/licenses/gpl.html)
 [![Gratipay](http://img.shields.io/gratipay/myTerminal.svg)](https://gratipay.com/myTerminal)  
 
-A template to create front-end libraries with [Webpack](https://webpack.js.org/) as the module-bundler [coming soon]
+A template to create front-end libraries with [Webpack](https://webpack.js.org/) as the module-bundler
 
 ## Technologies
 
