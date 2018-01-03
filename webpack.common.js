@@ -10,7 +10,6 @@ const path = require('path');
 
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
-const UglifyJSWebpackPlugin = require('uglifyjs-webpack-plugin');
 
 const clean = new CleanWebpackPlugin([outputDir]);
 
