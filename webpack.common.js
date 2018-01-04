@@ -17,7 +17,7 @@ const extractCSS = new ExtractTextPlugin('styles/' + libraryFileName + '.css');
 
 module.exports = {
     entry: {
-        app: './' + sourceDir + '/scripts/' + libraryFileName + '.js'
+        library: './' + sourceDir + '/scripts/' + libraryFileName + '.js'
     },
     module: {
         rules: [
