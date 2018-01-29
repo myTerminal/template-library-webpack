@@ -7,7 +7,6 @@
 [![devDependency Status](https://david-dm.org/myTerminal/template-library-webpack/dev-status.svg)](https://david-dm.org/myTerminal/template-library-webpack#info=devDependencies)
 [![peer Dependency Status](https://david-dm.org/myTerminal/template-library-webpack/peer-status.svg)](https://david-dm.org/myTerminal/template-library-webpack#info=peerDependencies)  
 [![License](https://img.shields.io/badge/LICENSE-GPL%20v3.0-blue.svg)](https://www.gnu.org/licenses/gpl.html)
-[![Gratipay](http://img.shields.io/gratipay/myTerminal.svg)](https://gratipay.com/myTerminal)  
 
 A template to create front-end libraries with [Webpack](https://webpack.js.org/) as the module-bundler
 
