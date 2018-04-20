@@ -8,7 +8,7 @@ const messageTypes = {
 };
 
 const showMessage = function (root, text, messageType) {
-    jquery(root).append('<p class="message ' + messageType + '">' + text + '</p>');
+    jquery(root).append(`<p class="message${messageType}">${text}</p>`);
 };
 
 export const showNotification = function (root, text) {
