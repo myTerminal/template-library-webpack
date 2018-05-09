@@ -7,18 +7,24 @@ const messageTypes = {
     error: 'error'
 };
 
-const showMessage = function (root, text, messageType) {
-    jquery(root).append(`<p class="message${messageType}">${text}</p>`);
-};
+function showMessage(root, text, messageType) {
+    jquery(root).append(`<p class="message ${messageType}">${text}</p>`);
+}
 
-export const showNotification = function (root, text) {
+function showNotification(root, text) {
     showMessage(root, text, messageTypes.notification);
-};
+}
 
-export const showWarning = function (root, text) {
+function showWarning(root, text) {
     showMessage(root, text, messageTypes.warning);
-};
+}
 
-export const showError = function (root, text) {
+function showError(root, text) {
     showMessage(root, text, messageTypes.error);
+}
+
+export {
+    showNotification,
+    showWarning,
+    showError
 };
