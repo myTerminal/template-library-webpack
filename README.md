@@ -46,7 +46,7 @@ A template to create front-end libraries with [Webpack](https://webpack.js.org/)
 
  - `npm run debug` to run Webpack with development configuration.  
  In this mode, Webpack generates source-maps for bundled JavaScript resources to simplify debugging of JavaScript in the web-browser.
- - `npm run develop` to run Webpack with development configuration and keep watching for file changes within source.  
+ - `npm run develop` to run Webpack with development configuration and keep watching for file changes within the source.  
  In this mode, Webpack generates source-maps for bundled JavaScript resources to simplify debugging of JavaScript in the web-browser.
  - `npm run build` to run Webpack with production configuration.  
  In this mode, Webpack minifies the JavaScript bundles and there are no source-maps created.
