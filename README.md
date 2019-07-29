@@ -1,9 +1,5 @@
 # template-library-webpack
 
-[![Code Climate](https://codeclimate.com/github/myTerminal/template-library-webpack.png)](https://codeclimate.com/github/myTerminal/template-library-webpack)  
-[![Dependency Status](https://david-dm.org/myTerminal/template-library-webpack.svg)](https://david-dm.org/myTerminal/template-library-webpack)
-[![devDependency Status](https://david-dm.org/myTerminal/template-library-webpack/dev-status.svg)](https://david-dm.org/myTerminal/template-library-webpack#info=devDependencies)
-[![peer Dependency Status](https://david-dm.org/myTerminal/template-library-webpack/peer-status.svg)](https://david-dm.org/myTerminal/template-library-webpack#info=peerDependencies)  
 [![License: CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/80x15.png)](https://creativecommons.org/licenses/by-nc-sa/4.0)
 
 A template to create front-end libraries with [Webpack](https://webpack.js.org/) as the module-bundler
