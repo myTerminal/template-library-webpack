@@ -14,13 +14,13 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 
 const clean = new CleanWebpackPlugin([outputDir]);
-const extractCSS = new ExtractTextPlugin('styles/' + libraryFileName + '.css');
+const extractCSS = new ExtractTextPlugin(`styles/${libraryFileName}.css`);
 const optimizeCSS = new OptimizeCssAssetsPlugin();
 
 module.exports = {
     mode: 'development',
     entry: {
-        [libraryFileName]: './' + sourceDir + '/scripts/' + libraryFileName + '.js'
+        [libraryFileName]: `./${sourceDir}/scripts/${libraryFileName}.js`
     },
     module: {
         rules: [
