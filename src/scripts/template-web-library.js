@@ -1,5 +1,5 @@
 import jquery from 'jquery';
-import '../styles/template-library.less';
+import '../styles/template-web-library.less';
 
 const messageTypes = {
     notification: 'notification',

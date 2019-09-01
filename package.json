@@ -1,8 +1,8 @@
 {
-  "name": "template-library",
+  "name": "template-web-library",
   "version": "1.0.0",
-  "description": "template-library",
-  "main": "build/scripts/template-library.js",
+  "description": "template-web-library",
+  "main": "build/scripts/template-web-library.js",
   "scripts": {
     "debug": "webpack --config webpack.dev.js",
     "develop": "webpack --config webpack.dev.js --watch",
@@ -10,12 +10,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:myTerminal/template-library-webpack.git"
+    "url": "git@github.com:myTerminal/template-web-library-webpack.git"
   },
   "bugs": {
-    "url": "https://github.com/myTerminal/template-library-webpack/issues"
+    "url": "https://github.com/myTerminal/template-web-library-webpack/issues"
   },
-  "homepage": "https://github.com/myTerminal/template-library-webpack#readme",
+  "homepage": "https://github.com/myTerminal/template-web-library-webpack#readme",
   "keywords": [
     "template"
   ],
